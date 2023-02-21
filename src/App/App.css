@@ -1,0 +1,4 @@
+.container {
+    @apply p-4;
+    @apply w-full max-w-4xl;
+}

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply p-4;
+    @apply w-full max-w-3xl;
+    @apply m-0 mx-auto;
+}
+
+.page_header {
+    @apply pb-8;
+}
+
+.page_header_title {
+    @apply text-4xl;
+    @apply pb-4;
+}
+
+.page_header_text {
+    @apply text-gray-600;
+}
+
+.posts_list {
+    @apply flex flex-col gap-4;
+}
+
+.post {
+    @apply flex items-center gap-4;
+    @apply p-2;
+    @apply border;
+}
+
+.post_title {
+    @apply text-xl;
+    @apply pb-2;
+}
+
+.post_body {
+    @apply text-gray-600;
+}
